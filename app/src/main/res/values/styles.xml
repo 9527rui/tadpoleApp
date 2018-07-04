@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>>
+    </style>
+    <style name="AppTheme" parent="AppTheme.Base">
+    </style>
+
+
+    <style name="tab_style">
+        <item name="android:textSize">20dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="dialogWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/num_picker_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/num_picker_dialog_out</item>
+    </style>
+    <style name="time_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <color name="background">#fff</color>
+    <style name="transparentFrameWindowStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/photo_choose_bg</item>
+    </style>
+    <style name="anim_style">
+        <item name="android:windowEnterAnimation">@anim/dialog_anim_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_anim_out</item>
+    </style>
+
+</resources>

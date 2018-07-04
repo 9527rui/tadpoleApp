@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    >
+    <TextView
+        android:id="@+id/fromxc_img"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/selector_top_round"
+        android:text="@string/fromxc"
+        android:textSize="18dp"
+        android:textColor="@color/blue_02"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/hei_02"
+        />
+    <TextView
+        android:id="@+id/Photograph_img"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/selector_bottom_round"
+        android:text="@string/Photograph"
+        android:textSize="18dp"
+        android:textColor="@color/blue_02"
+        />
+
+    <TextView
+        android:id="@+id/Cancel_01"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/selector_all_round"
+        android:text="@string/Cancel"
+        android:textSize="18dp"
+        android:textColor="@color/blue_02"
+        />
+
+
+</LinearLayout>

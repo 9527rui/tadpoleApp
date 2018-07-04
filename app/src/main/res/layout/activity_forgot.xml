@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bj01"
+    >
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="280dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/sjh"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:hint="@string/bdsj"
+            android:maxLength="11"
+            android:textColorHint="@color/bai_1"
+            />
+
+        <EditText
+            android:id="@+id/xma"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/xma"
+            android:maxLength="18"
+            android:textColorHint="@color/bai_1"/>
+
+        <EditText
+            android:id="@+id/qrma"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/qrma"
+            android:maxLength="18"
+            android:textColorHint="@color/bai_1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/yzm"
+                android:layout_width="140dp"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:hint="@string/yzm"
+                android:maxLength="6"
+                android:textColorHint="@color/bai_1"/>
+
+            <Button
+                android:id="@+id/hqyazma"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/shape04"
+                android:text="@string/hqyzm"
+                android:textColor="@color/bai_1"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_zhma"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape04"
+            android:text="@string/zhmab"
+            android:textColor="@color/bai_1"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+</LinearLayout>

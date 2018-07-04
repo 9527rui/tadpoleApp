@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01b37c</color>
+    <color name="colorPrimaryDark">#009b6b</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="yellow">#fd9c06</color>
+    <color name="red">#F00</color>
+    <color name="grey">#BDBDBD</color>
+    <color name="orange_color">#ff6201</color>
+    <color name="hui">#d4d4d4</color>
+    <color name="blue">#239cff</color>
+    <color name="blue1">#62f5ff</color>
+    <color name="hei">#3b3b3b</color>
+    <color name="bai_1">#ffffff</color>
+    <color name="number">#01cbfd</color>
+    <color name="start_yund">#17ac4d</color>
+    <color name="tou">#78282828</color>
+    <color name="bai_3">#ef01b3ff</color>
+    <color name="bai_6">#fff</color>
+    <color name="bai_7">#ececec</color>
+    <color name="bai_4">#686767</color>
+    <color name="title_hei">#000</color>
+    <color name="bai_2">#fff</color>
+    <color name="bai_8">#afffffff</color>
+    <color name="plan_bj">#fff</color>
+    <color name="nv">#ff00f2</color>
+    <color name="hui_01">#efefef</color>
+    <color name="Lightcolor">#d55188ef</color>
+    <color name="Lightcolor01">#7aa6e7</color>
+    <color name="little_grey">#c8ffffff</color>
+    <color name="blue_02">#dc02a2ff</color>
+    <color name="tou_01">#00ffffff</color>
+    <color name="hui_02">#cbd9d9d9</color>
+    <color name="hei_02">#e7464646</color>
+    <color name="blue_03">#d018bcff</color>
+
+    <color name="primary">#01b37c</color>
+    <color name="primary_dark">#009b6b</color>
+    <color name="bai">#fff</color>
+</resources>

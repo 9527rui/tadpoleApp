@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Test.IntegralmallActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@color/blue"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@color/bai_1"
+            android:text="@string/bshd"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@drawable/match"
+         />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        android:textSize="16dp"
+        android:background="@color/hui_01"
+        android:textColor="@color/orange_color"
+        android:text="@string/bsgg"
+         />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/bsxctu"
+        />
+
+    <Button
+        android:id="@+id/bs_bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/bai_1"
+        android:textSize="20dp"
+        android:background="@drawable/shape00001"
+        android:layout_margin="20dp"
+        android:text="@string/wybm"
+        />
+
+    <TextView
+        android:id="@+id/bs_bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/tjsj"
+        android:textSize="16dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/orange_color"
+         />
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

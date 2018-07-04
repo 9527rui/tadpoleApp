@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">maps-module</string>
+    <string name="huwai">跑步</string>
+    <string name="qixing">骑行</string>
+    <string name="szmb1">目标设置</string>
+    <string name="xzfs">选择运动方式</string>
+    <string name="running">跑步运动进行中</string>
+    <string name="Kilometres">公里</string>
+    <string name="Default">默认设置：5公里</string>
+    <string name="ydmb_pb">本次运动目标：</string>
+</resources>
